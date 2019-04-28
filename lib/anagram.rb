@@ -1,5 +1,9 @@
 # Your code goes here!
-class Anagram 
+class Anagram
   attr_accessor :diaper
 
-end
+  def initialize(diaper)
+  @diaper = diaper
+  end
+
+end 
