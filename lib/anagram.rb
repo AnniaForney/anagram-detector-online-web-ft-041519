@@ -1,4 +1,5 @@
 # Your code goes here!
 class
-  attr_accessor 
+  attr_accessor :diaper 
+  
 end
