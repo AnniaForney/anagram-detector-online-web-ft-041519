@@ -9,7 +9,7 @@ class Anagram
   def match(diaper)
     diaper = []
     diaper.each do |diaper|
-      if diaper.split("").sort == @diaper.split("").sort
+      if diaper.split("").sort = @diaper.split("").sort
         diaper << anagram
       end
     end
