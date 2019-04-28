@@ -6,7 +6,7 @@ class Anagram
     @diaper = diaper
   end
 
-def match (diaper)
+def match(array)
   matches = []
   array.each do |diaper|
     matches << diaper if diaper.split('').sort == self.diaper.split('').sort
