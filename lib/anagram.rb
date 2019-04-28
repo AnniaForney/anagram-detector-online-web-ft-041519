@@ -8,8 +8,8 @@ class Anagram
 
 def match (diaper)
   matches = []
-  diaper.each do |diaper|
-    match << diaper if diaper.split('').sort == self.diaper.split('').sort
+  array.each do |diaper|
+    matches << diaper if diaper.split('').sort == self.diaper.split('').sort
   end
   matches
 end
