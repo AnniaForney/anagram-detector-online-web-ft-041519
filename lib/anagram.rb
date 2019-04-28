@@ -6,6 +6,8 @@ class Anagram
   @diaper = diaper
   end
 
-def diaper.match
+  def diaper.match
   @diaper = diaper 
-end
+  end
+  
+end 
