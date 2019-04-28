@@ -1,11 +1,17 @@
 # Your code goes here!
 class Anagram
-  attr_accessor :diaper
+  attr_accessor :word 
 
-  def initialize(diaper)
-  @diaper = diaper
+  def initialize(word)
+    @word = word 
   end
 
-def match (diaper)
-
+def match (array)
+  matches = []
+  array.each do |word|
+    mataches << word if word.split('').sort == self.word.split('').sort 
+  end 
+  matches
 end
+
+end 
